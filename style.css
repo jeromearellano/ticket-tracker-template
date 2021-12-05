@@ -1,0 +1,107 @@
+/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.header-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom left, rgba(216, 54, 98, 1),rgba(114, 1, 31, 1), rgba(16, 0, 102, 1));
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: white;
+    outline: none;
+    z-index: 9999;
+}
+
+.banner {
+    padding: 3rem;
+    margin-bottom: 3rem;
+    border-radius: .9rem .9rem 0 0;
+    background-color: rgba(16, 0, 102, 1);
+    background-size: cover;
+    outline: none;
+    color: white;
+}
+
+.header form { 
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header form .text-input{
+    width: 100%;
+    padding: .5rem;
+    font-size: 18px;
+    border: none;
+    border-bottom: #333 1px solid;
+    outline: none;
+}
+
+.header form .btn-input{
+    width: 100%;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 26px;
+    background-color: rgba(1, 39, 63, 1);
+    color: white;
+    border: none;
+    border-radius: 1.5rem;
+    transition: all 250ms ease-in-out;
+}
+
+.header form select {
+    width: 100%;
+    padding: .5rem;
+    font-size: 18px;
+    border: none;
+    border-bottom: #333 1px solid;
+    outline: none;
+    color: rgb(121, 121, 121);
+}
+
+.header form select option {
+    color: rgb(0, 0, 0);        
+    
+}
+
+.header form .btn-input:hover {
+    background-color: rgba(216, 54, 98, .8);
+    color:black;
+}
+
+.register-container {
+    padding: 3rem;
+    display: flex;
+}
+.register-container p {
+    flex: 1;
+}
+
+.register-container a {
+    padding-right: 2rem;
+}
+
